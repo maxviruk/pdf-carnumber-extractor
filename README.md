@@ -18,7 +18,8 @@ This Google Colab notebook helps you:
 ## 🚀 How to Use It
 
 1. Open the notebook in **Google Colab**:
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/maxviruk/pdf-carnumber-extractor/blob/main/pdf_extractor_final_cleaned.ipynb)
+   [![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/maxviruk/pdf-carnumber-extractor/blob/main/pdf_extractor_final_cleaned.ipynb](https://colab.research.google.com/github/maxviruk/pdf-carnumber-extractor/blob/main/pdf_extractor_final_cleaned.ipynb
+)
 
 2. **Upload your PDF** using the provided cell
 
