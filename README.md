@@ -1,6 +1,6 @@
 # 🚗 PDF Car Number Extractor
 
-This tool allows you to split a multi-page vehicle-related PDF into 2-page chunks and extract car registration numbers (license plates) from the **first page** of each chunk.
+This tool splits a multi-page vehicle-related PDF into 2-page chunks and extracts car registration numbers from the **first page** of each chunk.
 
 ✅ Fully runs in **Google Colab** — no installation required.
 
@@ -8,7 +8,7 @@ This tool allows you to split a multi-page vehicle-related PDF into 2-page chunk
 
 ## ▶️ Open in Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/maxviruk/pdf-carnumber-extractor/blob/main/pdf_extractor_named_by_plate.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/maxviruk/pdf-carnumber-extractor/blob/main/pdf_extractor.ipynb)
 
 ---
 
@@ -64,4 +64,3 @@ result.xlsx
 4. Download the Excel summary and PDF chunks.
 
 ---
-
