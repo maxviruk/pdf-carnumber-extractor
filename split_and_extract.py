@@ -5,7 +5,11 @@ import re
 
 def extract_registration(text):
     match = re.search(r'\b[A-Z]{1,3}-[A-Z]{1,2} \d{1,4}\b', text)
-    return match.group(0) if match else 'Not found'
+    if match:
+        plate = match.group(0)
+        if 8 <= len(plate) <= 10:
+            return plate
+    return "Not found"
 
 def split_and_extract(input_path, output_folder, result_xlsx):
     reader = PdfReader(input_path)
@@ -33,6 +37,3 @@ def split_and_extract(input_path, output_folder, result_xlsx):
 
     df = pd.DataFrame(results)
     df.to_excel(result_xlsx, index=False)
-
-# Example usage:
-# split_and_extract("input.pdf", "splits", "result.xlsx")
